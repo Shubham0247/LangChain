@@ -27,7 +27,7 @@ prompt = ChatPromptTemplate.from_messages(
 st.title("AskMate - Chatbot using with LangChain")
 input_text = st.text_input("What question you have in mind?")
 
-## Chatgrok model
+## Chatgroq model
 
 llm = ChatGroq(model="gemma2-9b-it")
 
